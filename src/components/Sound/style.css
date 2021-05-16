@@ -1,0 +1,6 @@
+.insideTheDiv{
+  cursor: none !important;
+}
+.outsideTheDiv{
+    cursor: auto !important;
+}
