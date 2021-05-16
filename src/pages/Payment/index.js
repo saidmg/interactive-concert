@@ -1,8 +1,12 @@
+import {useEffect} from 'react'
 import './style.css'
 import Footer from '../../components/Footer'
 import PaymentBtn2 from '../../components/PaymentBtn2'
 import DownloadBtn from '../../components/DownloadBtn'
 export default function Payment() {
+    useEffect(() => {
+        document.title = 'Payment';
+    }, []);
 
     return (
         
@@ -19,17 +23,17 @@ export default function Payment() {
                         <h3>1. Select your plan</h3>
                         <div>
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="validationFormCheck1" name="radio-stacked" required />
+                            <input type="radio" class="form-check-input basic-radio-input" id="validationFormCheck1" name="radio-stacked" required />
                             <label class="form-check-label  basic-radio" for="validationFormCheck1">Basic</label>
                             <div class="invalid-feedback">Please Select a plan</div>
                         </div>
                         <div  class="form-check ">
-                            <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required />
+                            <input type="radio" class="form-check-input advanced-radio-input" id="validationFormCheck2" name="radio-stacked" required />
                             <label class="form-check-label advanced-radio" for="validationFormCheck2"> Advanced</label>
                             <div class="invalid-feedback">Please Select a plan</div>
                         </div>
                         <div  class="form-check ">
-                            <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required />
+                            <input type="radio" class="form-check-input pro-radio-input" id="validationFormCheck3" name="radio-stacked" required />
                             <label class="form-check-label pro-radio" for="validationFormCheck3"> Pro</label>
                             <div class="invalid-feedback">Please Select a plan</div>
                         </div></div>

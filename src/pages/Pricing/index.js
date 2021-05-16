@@ -1,16 +1,21 @@
+import {useEffect} from 'react'
 import './style.css'
 import Footer from '../../components/Footer'
 import Button from '../../components/Button'
-import Header from '../../components/Header'
 import PaymentBtn from '../../components/PaymentBtn'
 
 export default function Pricing() {
+    useEffect(() => {
+        document.title = 'Pricing / Perks';
+    }, []);
+
     return (
         <div style={{ backgroundColor: '#191919', paddingTop: '5%' }}>
             <Button colored='white' />
+            <h3 style={{paddingTop:'0.7%', color:'white'}}>EXP|CON</h3>
             <div className="container">
 
-                <div className="row" style={{ paddingTop: '10%', paddingLeft: '0%' }}>
+                <div className="row" style={{ paddingTop: '10%', paddingBottom: '5%' }}>
                     <h1 style={{ color: 'white' }}>Pricing</h1>
                     <h3 style={{ color: 'white' }}>Test out our app today! Choose from three subscription Based payment models
     </h3>
@@ -42,7 +47,7 @@ export default function Pricing() {
                                 <li>It's so so good</li>
                                 <li>More Features</li>
                             </ul>
-                            <PaymentBtn colored="#FFB33F" text="eee" />
+                            <PaymentBtn colored="#FFB33F" text="SELECT" />
                         </div>
                         <div className="col">
 
@@ -57,13 +62,14 @@ export default function Pricing() {
                                 <li>It's so so good</li>
                                 <li>More Features</li>
                             </ul>
-                            <PaymentBtn colored="#1FE1E9" text="eee" />
+                            <PaymentBtn colored="#1FE1E9" text="SELECT" />
                         </div>
                     </div>
                 </div>
             </div>
-            <div style={{ backgroundColor: '#D34848', paddingTop: '5%' }}>
+            <div style={{ backgroundColor: '#D34848', paddingTop: '5%', paddingBottom: '5%' }}>
                 <Button colored='#D34848' />
+                <h3 style={{paddingTop:'0.7%', color:'white'}}>EXP|CON</h3>
                 <div className="container pb-5">
                 <div className="row align-items-start" style={{ paddingTop: '10%', paddingLeft: '0%' }}>
                     <h1 style={{color:'white', marginBottom:'5%'}}>PERKS</h1>

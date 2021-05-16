@@ -1,3 +1,4 @@
+import {useEffect} from 'react'
 import './style.css'
 import Sound from '../../components/Sound'
 import Seat from '../../components/Seat'
@@ -8,16 +9,18 @@ import Footer from '../../components/Footer'
 import Slider from '../../components/Slider'
 
 export default function Landing() {
+    useEffect(() => {
+        document.title = 'Interactive Concert Experience';
+    }, []);
+
     return (    
     <>
-    {/* <Slider/> */}
     <Sound/>
     <Seat/>
     <Perks/>
     <Reviews/>
     <Purchase/>
     <Footer/>
-    
     </>
     )
 }

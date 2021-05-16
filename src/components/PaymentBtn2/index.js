@@ -7,9 +7,7 @@ export default function PaymentBtn2({colored}) {
 
     return(
         <>
-        
-        {/* <div style={{display:'inline'}}> */}
-<div  class= {toggle? 'open oppenned': 'open'} onClick={()=> setToggle(!toggle)} style={{float:'left'}}>
+        <div  class= {toggle? 'open oppenned': 'open'} onClick={()=> setToggle(!toggle)} style={{marginLeft:'12%',float:'left'}}>
 	<span  class="cls" style={{backgroundColor: toggle? colored:'black'}} ></span>
 	<span  style={{backgroundColor: toggle? colored:'black'}} ><h3 style={{color:colored ,position:"absolute",top:'37%', right:"7%", zIndex:'100'}}> EXP|CON</h3>
 		<ul class="sub-menu ">

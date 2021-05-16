@@ -5,9 +5,9 @@ export default function Perks() {
     return (    
     <>
     <div style={{backgroundColor:'#191919', color:'white'}}>
-        <Header/>
+        <Header color="#191919"/>
         <div className="container" style={{paddingBottom:'10%'}}>
-        <h1 style={{marginTop:'10%', marginLeft:'3%'}}>PERKS</h1>
+        <h1 style={{marginTop:'10%', marginLeft:'3%',paddingTop:'30px'}}>PERKS</h1>
         <div className="row mt-3">
             <div className="col-lg-4 p-5">
                 <h2 style={{color:'#D34848'}}>

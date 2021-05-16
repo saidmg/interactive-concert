@@ -37,7 +37,7 @@ audioElement &&  audioContext.createMediaElementSource(audioElement).connect(aud
                 {/* <Slider/> */}
                 <div className="row" style={{marginTop:'15%',paddingBottom:'5%'}}>
                     <div className="col-lg-7 col-md-12">
-                        <h1 style={{color:'white'}}>SUPERIOR SOUND</h1>
+                        <h1 style={{color:'white', paddingTop:'90px'}}>SUPERIOR SOUND</h1>
                         <h3>Experience live versions of your favourite songs.</h3>
                         <DemoBtn colored='#D34848' text='SEE DEMO'/>
                     </div>

@@ -5,7 +5,8 @@ import TryBtn from '../TryBtn'
 export default function Purchase() {
     return (    
     <div style={{backgroundColor:'black'}}>
-        <Button/>
+        <div style={{paddingTop:'5%'}}>
+        <Button colored="white"/>
         <div className="container">
             <div className="row" style={{paddingTop:'10%', paddingBottom:'10%'}}>
                 <div className="col-lg-7 col-md-12">
@@ -17,7 +18,7 @@ export default function Purchase() {
         <TryBtn/>
         </div>
         </div>
-    </div>
+    </div></div>
     </div>
     )
 }
