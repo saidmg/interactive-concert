@@ -59,7 +59,7 @@ export default class CitiesSlider extends React.Component {
         React.createElement("h2", { className: "slider__slide-subheading" },
         slide.city.split('').map(l => /*#__PURE__*/React.createElement("span", null, l))), /*#__PURE__*/
   
-        React.createElement("button", { className: "slider__slide-readmore btn-mix-noborder" }, "TRY IT NOW")), /*#__PURE__*/
+        React.createElement("button", { className: "slider__slide-readmore btn-mix-noborder btnnn" }, "TRY IT NOW")), /*#__PURE__*/
   
         React.createElement("div", { className: "slider__slide-parts" },
         [...Array(this.IMAGE_PARTS).fill()].map((x, i) => /*#__PURE__*/
@@ -85,15 +85,14 @@ export default class CitiesSlider extends React.Component {
     img: 'https://user-images.githubusercontent.com/71358869/118379830-9b089c80-b5ab-11eb-9fb4-8f9ee9aaa123.png' },
   
   {
-    city: 'Singapore',
+    city: 'Experience your favorite artists like never before and from the comfort of your own home',
     country: 'INTERACTIVE CONCERT EXPERIENCE',
-
-    img: 'https://user-images.githubusercontent.com/71358869/118379842-ad82d600-b5ab-11eb-8f7a-d24e4c04317f.png' },
+    img: 'https://user-images.githubusercontent.com/71358869/118379830-9b089c80-b5ab-11eb-9fb4-8f9ee9aaa123.png' },
   
   {
-    city: 'Prague',
-    country: 'Czech Republic',
-    img: 'https://user-images.githubusercontent.com/71358869/118379849-b83d6b00-b5ab-11eb-9fcf-5a38d47fc949.png' },
+    city: 'Experience your favorite artists like never before and from the comfort of your own home',
+    country: 'INTERACTIVE CONCERT EXPERIENCE',
+    img: 'https://user-images.githubusercontent.com/71358869/118379830-9b089c80-b5ab-11eb-9fb4-8f9ee9aaa123.png' },
   
   
   
@@ -106,4 +105,4 @@ export default class CitiesSlider extends React.Component {
   
   
   
-(window.location.pathname === '/home') &&  ReactDOM.render( /*#__PURE__*/React.createElement(CitiesSlider, { slides: slides }), document.querySelector('#app'));
+(window.location.pathname === '/') &&  ReactDOM.render( /*#__PURE__*/React.createElement(CitiesSlider, { slides: slides }), document.querySelector('#app'));

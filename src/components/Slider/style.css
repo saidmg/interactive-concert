@@ -29,6 +29,20 @@
     transform: translateY(-30px);
     opacity: 0;
   }
+  .btnnn{
+    background-image: linear-gradient(to right, #1FE1E9 0%,#2F1FE9 25%, #5E33D1 51%, #D34848 75%, #FFB33F 100%);
+    color:white;
+    background-size: 100% auto;
+
+  }
+  .btnnn:hover{
+    background-image: linear-gradient(to right, #1FE1E9 0%,#2F1FE9 25%, #5E33D1 51%, #D34848 75%, #FFB33F 100%);
+    background-size: 200% auto;
+  }
+  .btnnn:focus{
+    background-image: linear-gradient(to right, #1FE1E9 0%,#2F1FE9 25%, #5E33D1 51%, #D34848 75%, #FFB33F 100%);
+    background-size: 200% auto;
+  }
   .slider.s--ready .slider__top-heading {
     transform: translateY(0);
     opacity: 1;

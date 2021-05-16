@@ -9,7 +9,7 @@ export default function Footer() {
             <h5>Support@experienceconcerts.co</h5>
             
             <h3 style={{textAlign:'center', marginTop:'5%'}}>EXP|CON</h3>
-            <p style={{textAlign:'center'}}>2019@ All Rights Reserved | Speer Technologies Incorporated</p>
+            <p style={{textAlign:'center'}}>2019 &copy; All Rights Reserved | Speer Technologies Incorporated</p>
             </div>
         </div>
         </>
