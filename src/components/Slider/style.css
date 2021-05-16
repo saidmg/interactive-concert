@@ -333,3 +333,6 @@
   .icon-link {
    display: none;
   }
+  .slider__slide-readmore:before{
+    transform: scaleX(0);
+  }

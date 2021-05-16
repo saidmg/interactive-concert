@@ -87,12 +87,12 @@ export default class CitiesSlider extends React.Component {
   {
     city: 'Experience your favorite artists like never before and from the comfort of your own home',
     country: 'INTERACTIVE CONCERT EXPERIENCE',
-    img: 'https://user-images.githubusercontent.com/71358869/118379830-9b089c80-b5ab-11eb-9fb4-8f9ee9aaa123.png' },
+    img: 'https://user-images.githubusercontent.com/71358869/118379842-ad82d600-b5ab-11eb-8f7a-d24e4c04317f.png' },
   
   {
     city: 'Experience your favorite artists like never before and from the comfort of your own home',
     country: 'INTERACTIVE CONCERT EXPERIENCE',
-    img: 'https://user-images.githubusercontent.com/71358869/118379830-9b089c80-b5ab-11eb-9fb4-8f9ee9aaa123.png' },
+    img: 'https://user-images.githubusercontent.com/71358869/118379849-b83d6b00-b5ab-11eb-9fcf-5a38d47fc949.png' },
   
   
   

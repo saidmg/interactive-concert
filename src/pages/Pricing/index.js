@@ -27,7 +27,7 @@ export default function Pricing() {
                                 <li>It's so good</li>
                                 <li>Features</li>
                             </ul>
-                            <PaymentBtn colored="#D24848" text="eee" />
+                            <PaymentBtn colored="#D24848" text="SELECT" />
                         </div>
                         <div className="col">
 
