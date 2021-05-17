@@ -1,6 +1,14 @@
 .background-img{
-    background: url("../../images/image4.png") no-repeat center center fixed;
-
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    background: url("../../images/image4.png") 50% 50% no-repeat fixed;
     background-size: cover;
+    border-radius: 50%;
+}
 
+.backk{
+    position: relative;
+    background: #FFB33F;
+    text-align: center;
 }

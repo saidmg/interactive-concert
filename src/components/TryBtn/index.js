@@ -6,7 +6,7 @@ export default function TryBtn() {
     return (
         <NavLink to="/pricing" className="nav-link" activeClassName="active" >
       
-<button class="btn-mix-noborder" style={{color:'black', fontWeight:'bold'}}>TRY IT NOW</button>
+<button class="btn-mix-noborder" style={{ fontWeight:'bold'}}>TRY IT NOW</button>
 </NavLink>
     )
 }

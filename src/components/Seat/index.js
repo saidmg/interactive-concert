@@ -6,8 +6,20 @@ import { useEffect, useState, useCallback } from 'react'
 export default function Seat() {
     const [cursor, setCursor] = useState({ active: false });
     const [position, setPosition] = useState({ clientX: 0, clientY: 0, });
+    const [curs, setCurs] = useState({ pageX: '0%', pageY: '0%' })
+
+    function revealPic(event) {
+
+        let x = event.clientX
+        let y = event.clientY - event.pageY / 10
+        setCurs({
+            x,
+            y
+        });
+    }
+
     const updatePosition = event => {
-        const { pageX, pageY, clientX, clientY } = event;
+        const { clientX, clientY } = event;
         setPosition({
             clientX,
             clientY,
@@ -28,20 +40,25 @@ export default function Seat() {
     }, [])
 
     return (
-        <div onMouseEnter={toggleCursor}
-            onMouseLeave={toggleCursor} style={{ backgroundColor: '#FFB33F' }} className={cursor.active ? 'insideTheDiv' : 'outsideTheDiv'}>
+        <div onMouseEnter={toggleCursor} onMouseMove={revealPic}
+            onMouseLeave={toggleCursor} className={cursor.active ? 'insideTheDiv backk' : 'outsideTheDiv backk'}>
 
+            <div>
 
-            <div className="background-img">
                 <Header color='#FFB33F' />
                 <div class="container" style={{ height: '70vh' }}>
                     <div className="row justify-content-end" style={{ paddingTop: '10%' }}>
+                        <div className="col-lg-7 col-md-12" >
+                            <div className="background-img" style={{ top: (curs.y), left: curs.x, zIndex: '0' }}>
+                            </div>
+                            <div className='inverting' style={{ position: 'relative' }}>
+                                <h1 style={{ color: 'white' }}>FRONT ROW SEATS</h1>
+                                <h3 >Experience concerts up close and personal.</h3>
 
-                        <div className="col-lg-7 col-md-12">
-                            <h1 style={{ color: 'white' }}>FRONT ROW SEATS</h1>
-                            <h3>Experience concerts up close and personal.</h3>
-                            <DemoBtn colored='#FFB33F' text='SEE DEMO' />
+                                <DemoBtn colored='#FFB33F' text='SEE DEMO' />
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -53,15 +70,17 @@ export default function Seat() {
                     left: 0,
                     right: 0,
                     zIndex: 9999,
-                    pointerEvents: "none"
+                    pointerEvents: "none",
+
                 }}
             >
                 <svg
-                    //   text='say'
                     width={50}
                     height={50}
                     viewBox="0 0 50 50"
                     style={{
+                        mixBlendMode: 'difference',
+
                         position: "absolute",
                         left: position.clientX,
                         top: position.clientY,

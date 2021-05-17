@@ -4,3 +4,18 @@
     height: 40px;
     border-width: 1px;
 }
+
+.demo-btn2{
+    background-image: linear-gradient(to right, #1FE1E9 0%,#2F1FE9 25%, #5E33D1 51%, #D34848 75%, #FFB33F 100%);
+    background-size: 100% auto;
+    color: white !important;
+    border-radius: 50px;
+    width: 120px;
+    height: 30px;
+    border-width: 1px;
+} 
+.demo-btn2:hover{
+    background-image: linear-gradient(to right, #1FE1E9 0%,#2F1FE9 25%, #5E33D1 51%, #D34848 75%, #FFB33F 100%);
+    background-size: 200% auto;
+  transition-duration: 1s
+} 

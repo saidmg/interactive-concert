@@ -94,13 +94,6 @@ export default class CitiesSlider extends React.Component {
     country: 'INTERACTIVE CONCERT EXPERIENCE',
     img: 'https://user-images.githubusercontent.com/71358869/118379849-b83d6b00-b5ab-11eb-9fcf-5a38d47fc949.png' },
   
-  
-  
-//   {
-//     city: 'Moscow',
-//     country: 'Russia',
-//     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg'
-//  }
 ];
   
   
