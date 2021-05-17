@@ -47,7 +47,7 @@ npm start
 
 ### Screenshots
 
-![Landing Page](https://user-images.githubusercontent.com/71358869/118387197-fa39d180-b5ea-11eb-9f3e-4e55b8a57053.jpeg)
+![Landing Page](https://user-images.githubusercontent.com/71358869/118440980-8107b080-b6b6-11eb-8960-4b62f1ef6582.jpeg)
 ![Pricing Page](https://user-images.githubusercontent.com/71358869/118387189-edb57900-b5ea-11eb-9935-e9b0016156ad.jpeg)
 ![Payment Page](https://user-images.githubusercontent.com/71358869/118387194-f60db400-b5ea-11eb-94fd-ba5642fa631a.jpeg)
 
